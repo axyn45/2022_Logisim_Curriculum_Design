@@ -1,0 +1,14 @@
+Partition Merge Status : Successful - Thu Apr 14 18:16:56 2022
+Quartus Prime Version : 17.0.0 Build 595 04/25/2017 SJ Standard Edition
+Revision Name : MIPS_Single_Cycle_IO
+Top-level Entity Name : MIPS_Single_Cycle_IO
+Family : Cyclone IV E
+Total logic elements : 14,543 / 114,480 ( 13 % )
+    Total combinational functions : 8,463 / 114,480 ( 7 % )
+    Dedicated logic registers : 7,344 / 114,480 ( 6 % )
+Total registers : 7344
+Total pins : 119 / 529 ( 22 % )
+Total virtual pins : 0
+Total memory bits : 2,498,560 / 3,981,312 ( 63 % )
+Embedded Multiplier 9-bit elements : 28 / 532 ( 5 % )
+Total PLLs : 1 / 4 ( 25 % )

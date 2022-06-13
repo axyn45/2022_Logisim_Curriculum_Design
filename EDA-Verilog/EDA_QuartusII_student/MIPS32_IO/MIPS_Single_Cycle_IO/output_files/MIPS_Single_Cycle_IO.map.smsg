@@ -1,0 +1,2 @@
+Warning (10273): Verilog HDL warning at IOInterface.v(159): extended using "x" or "z" File: D:/data/QuartusII/DE2-115/Verilog/CO/CurriculumDesign/2022/EDA_QuartusII_student/MIPS32_IO/MIPS_Single_Cycle_IO/RISCIO/IOInterface.v Line: 159
+Warning (10273): Verilog HDL warning at IOInterface.v(163): extended using "x" or "z" File: D:/data/QuartusII/DE2-115/Verilog/CO/CurriculumDesign/2022/EDA_QuartusII_student/MIPS32_IO/MIPS_Single_Cycle_IO/RISCIO/IOInterface.v Line: 163

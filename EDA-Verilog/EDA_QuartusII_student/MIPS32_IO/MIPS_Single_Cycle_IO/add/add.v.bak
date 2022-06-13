@@ -1,0 +1,16 @@
+//2020.4.18
+`include "../define.v"
+
+module add(
+
+
+	input  wire[`InstAddrBus]	a,
+	input  wire[`InstAddrBus]	b,
+	output wire[`InstAddrBus]	sum
+	
+);
+
+assign sum = a + b;
+
+
+endmodule

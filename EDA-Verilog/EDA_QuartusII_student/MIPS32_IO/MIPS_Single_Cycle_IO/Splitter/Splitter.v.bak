@@ -1,0 +1,33 @@
+//2020.4.18
+
+`include "../define.v"
+
+module id(
+
+	
+	input wire[`InstBus] 		inst,
+	
+	output wire[`OPBus]			op,
+	output wire[`FunctionBus]	func,
+
+	output wire[`TargetBus]		target , 
+	output wire[`ShamtBus]		shamt , 
+	output wire[`ImmBus]			imm_offset , 	
+	output wire[`RegAddrBus]		rs , 
+	output wire[`RegAddrBus]		rt , 
+	output wire[`RegAddrBus]		rd  
+	
+);
+
+	assign op = inst[31:26];	
+	assign func = inst[5:0];
+	
+	assign target = inst[25:0];	
+	assign shamt = inst[10:6];	
+	assign imm_offset = inst[15:0];	
+	assign rs = inst[25:21];	
+	assign rt = inst[20:16];	
+	assign rd = inst[15:11];		
+	
+	
+endmodule

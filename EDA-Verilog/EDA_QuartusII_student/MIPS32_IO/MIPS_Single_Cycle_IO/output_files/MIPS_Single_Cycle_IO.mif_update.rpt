@@ -1,0 +1,79 @@
+MIF/HEX Update report for MIPS_Single_Cycle_IO
+Sun May 29 17:31:25 2022
+Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. MIF/HEX Update Summary
+  3. MIF/HEX Update Processed Files
+  4. MIF/HEX Update Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++---------------------------------------------------------------+
+; MIF/HEX Update Summary                                        ;
++-----------------------+---------------------------------------+
+; MIF/HEX Update Status ; Successful - Sun May 29 17:31:25 2022 ;
+; Revision Name         ; MIPS_Single_Cycle_IO                  ;
+; Top-level Entity Name ; MIPS_Single_Cycle_IO                  ;
+; Family                ; Cyclone IV E                          ;
+; Device                ; EP4CE115F29C7                         ;
++-----------------------+---------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------+
+; MIF/HEX Update Processed Files                                                                                               ;
++------------------------------------------------------------------------------------------------------------------------------+
+; File Name                                                                                                                    ;
++------------------------------------------------------------------------------------------------------------------------------+
+; D:/data/QuartusII/DE2-115/Verilog/CO/CurriculumDesign/2022/EDA_QuartusII_student/MIPS32_IO/MIPS_Single_Cycle_IO/inst_rom.hex ;
++------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------+
+; MIF/HEX Update Messages ;
++-------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime MIF/HEX Update
+    Info: Version 17.0.0 Build 595 04/25/2017 SJ Standard Edition
+    Info: Processing started: Sun May 29 17:31:22 2022
+Info: Command: quartus_cdb MIPS_Single_Cycle_IO -c MIPS_Single_Cycle_IO --update_mif
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Warning (39023): Can't find Memory Initialization File data_ram0.hex -- skipped updates for this file
+Warning (39023): Can't find Memory Initialization File data_ram1.hex -- skipped updates for this file
+Warning (39023): Can't find Memory Initialization File data_ram2.hex -- skipped updates for this file
+Warning (39023): Can't find Memory Initialization File data_ram3.hex -- skipped updates for this file
+Warning (113007): Byte addressed memory initialization file "inst_rom.hex" was read in the word-addressed format File: D:/data/QuartusII/DE2-115/Verilog/CO/CurriculumDesign/2022/EDA_QuartusII_student/MIPS32_IO/MIPS_Single_Cycle_IO/inst_rom.hex Line: 1
+Critical Warning (127005): Memory depth (2048) in the design file differs from memory depth (33) in the Memory Initialization File "D:/data/QuartusII/DE2-115/Verilog/CO/CurriculumDesign/2022/EDA_QuartusII_student/MIPS32_IO/MIPS_Single_Cycle_IO/inst_rom.hex" -- setting initial value for remaining addresses to 0
+Info (39024): Processed the following Memory Initialization File(s)
+    Info (39025): Processed Memory Initialization File D:/data/QuartusII/DE2-115/Verilog/CO/CurriculumDesign/2022/EDA_QuartusII_student/MIPS32_IO/MIPS_Single_Cycle_IO/inst_rom.hex File: D:/data/QuartusII/DE2-115/Verilog/CO/CurriculumDesign/2022/EDA_QuartusII_student/MIPS32_IO/MIPS_Single_Cycle_IO/inst_rom.hex Line: 0
+Info: Quartus Prime MIF/HEX Update was successful. 0 errors, 7 warnings
+    Info: Peak virtual memory: 4807 megabytes
+    Info: Processing ended: Sun May 29 17:31:25 2022
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:02
+
+
